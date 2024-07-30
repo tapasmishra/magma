@@ -65,7 +65,7 @@ setup(
         'fire>=0.4.0',
         'glob2>=0.7',
         'aioh2>=0.2.2',
-        'redis==3.5.3',  # redis-py (Python bindings to redis)
+        'redis==4.4.4',  # redis-py (Python bindings to redis)
         'redis-collections==0.11.0',
         'python-redis-lock>=3.7.0',
         'aiohttp>=3.8.1',
@@ -81,13 +81,13 @@ setup(
         'sentry_sdk>=1.5.0,<1.9',
         'snowflake>=0.0.3',
         'psutil==5.9.1',
-        'cryptography==3.2.1',
+        'cryptography==42.0.4',
         'itsdangerous==1.1.0',
         'click==7.1.2',
         'pycares>=4.2.1',
         'python-dateutil>=2.8.2',
         # force same requests version as lte/gateway/python/setup.py
-        'requests==2.28.1',
+        'requests==2.31.0',
         'jsonpickle>=2.2.0',
         'bravado-core==5.17.0',
         'jsonschema==3.2.0',
